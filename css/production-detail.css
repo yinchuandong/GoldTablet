@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#mainr { width: 783px; height: auto; background-color: white; color: black;}
+.mainr-big { width: 783px; height: auto; background-color: white; color: black;}
 .mainr { width: 700px; height: auto; margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
 .mainr .frame { width: 700px; height: auto; border-bottom: 1px solid #d4d4d4; }
 .mainr .frame .title { width: 700px; height: 34px; background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa; line-height: 34px; font-size: 20px }
@@ -31,3 +31,7 @@
 .mainr .manage .content1 { width: 90px;}
 .mainr .manage .content2 { width: 180px;}
 .mainr .manage .content3 { width: 380px;}
+.box_skitter {
+	width: 700px;
+	margin: 20px 0;
+}

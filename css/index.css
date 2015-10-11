@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-#main { width: 1024px; height: auto;}
-#halei { width: 1024px; height: 540px; background-color: #fff; margin: 30px 0 0 0;}
+.main { width: 1024px; height: auto;}
+.halei-div{
+	height: 570px;width: 100%;margin-bottom: 20px;
+}
+.halei { width: 1024px; height: 540px; background-color: #fff; margin: 30px 0 0 0;}
 .halei { width: 340px; height: 535px; background-color: #fff; float: left;}
 .haleiA	{ border-top: 4px solid #40b9a1;}
 .haleiB	{ border-top: 4px solid #ff5c46;}
@@ -27,7 +30,7 @@
 .income_num .num2 { width: 120px;}
 .income_num .num3 { width: 83px;}
 .graph { height: 176px;}
-.money { height: 39px; color: #000; width: 294px;}
+.money { height: 39px; color: .000; width: 294px;}
 .money span {line-height:39px; float: left; text-align: center;}
 .money .num4 { margin: 0 12px 0 12px;}
 .money input { width: 66px; height: 30px; text-align: center; border: 1px solid #e2e2e2; line-height: 30px;}
@@ -37,16 +40,16 @@
 .money .num6 { width: 82px;}
 .cathectic { width: 280px; height: 48px; background-color: #088ae0; margin-top: 20px; }
 .cathectic p { font-size: 18px; color: white; line-height: 48px;}
-#web_character { width: 1024px; height: 320px; margin-top: 30px; background-color: white;}
-#web_character div { float: left;}
+.web_character { width: 100%; height: 320px; margin-top: 30px; background-color: white;}
+.web_character div { float: left;}
 .cha_size { width: 340px; height: 320px;}
 .cha_size div { width: 340px; margin-top: 57px; margin-bottom: 30px; }
 .cha_size p { width: 270px; margin: 0 auto; text-align: center; color: #6d6e71;}
 .font24 { font-size:24px; padding-bottom: 25px;}
 .gray_y2 { height: 260px; width: 1px; margin: 20px 0 0 0; background-color: #e9e9e9;}
-#process { width: 1024px; height: 320px; background-color: white; margin-top: 30px;}
-#text { width: 960px; height: 256px; padding-top: 30px;} 
-#text .title { color: #6d6e71; width: 960px; font-size: 24px;}
-#footer { width: 1024px; height: 92px; margin-top: 30px; margin-bottom: 30px;}
-#footer img { float: left;}
+.process { width: 1024px; height: 320px; background-color: white; margin-top: 30px;}
+.text { width: 960px; height: 256px; padding-top: 30px;} 
+.text .title { color: #6d6e71; width: 960px; font-size: 24px;}
+.footer { width: 1024px; height: 92px; margin-top: 30px; margin-bottom: 30px;}
+.footer img { float: left;}
 

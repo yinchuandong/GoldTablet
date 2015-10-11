@@ -1,36 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
-#main { width: 1024px; height: auto; margin-top: 21px;}
-#mainl { width: 220px; height: 100%; margin-right: 21px;}
-#nav { width: 220px; height: auto; background-color: white; padding-bottom: 21px;}
-#nav li { width: 220px; 
+.main { width: 1024px; height: auto; margin-top: 21px;}
+.mainl { width: 220px; height: 100%; margin-right: 21px;}
+.l_nav,.r_nav { width: 220px; height: auto; background-color: white; padding-bottom: 21px;}
+.l_nav li,.r_nav li { width: 220px; 
 		  height: 40px; 					  
 		  font-size: 16px;
 		  text-align: left; 
 		  line-height: 40px;}
-#mainl .title { font-size: 18px; 
+.mainl .title { font-size: 18px; 
 				color: #fff; 
 				font-weight: bold ; 
 				margin-bottom: 10px; 
 				background-color: #088ae0;
 			  }
-#mainl .title p { margin-left: 25px;}
-#nav li a { margin-left: 50px; color: #6d6e71;}
-#nav li a:hover { color: #088ae0;}
-#nav .blue { background-color: #ecf9ff; }
-#nav .blue p { margin-left: 50px; color: #088ae0;}
-#contact { width: 220px; height: auto; margin-top: 21px; background-color: white; padding-bottom: 21px;}
-#contact img { float: left; padding: 13px 8px 0 22px;}
-#contact p { float: left; line-height: 40px;}
-#contact li { width: 220px; 
+.mainl .title p { margin-left: 25px;}
+.l_nav li a,.r_nav li a { margin-left: 50px; color: #6d6e71;}
+.l_nav li a:hover ,.r_nav li a:hover { color: #088ae0;}
+.l_nav .blue,.r_nav .blue { background-color: #ecf9ff; }
+.l_nav .blue p ,.r_nav .blue p { margin-left: 50px; color: #088ae0;}
+.contact { width: 220px; height: auto; margin-top: 21px; background-color: white; padding-bottom: 21px;}
+.contact img { float: left; padding: 13px 8px 0 22px;}
+.contact p { float: left; line-height: 40px;}
+.contact li { width: 220px; 
 			  height: 40px; 					  
 			  font-size: 14px;
 			  text-align: left; 
 			  line-height: 40px;
-			  color: #8c8d90;}
-#contact li a{color: #8c8d90;}  
-#footer { width: 100%; height: auto; background-color: #e2e2e2; margin-top: 28px;}		
-#footer .link { width: 980px; 
+			  }
+.contact li.title a{
+	color: #fff;
+}
+.contact li a{color: #8c8d90;}  
+.footer { width: 100%; height: auto; background-color: #e2e2e2; margin-top: 28px;}		
+.footer .link { width: 980px; 
 				height: auto; 
 				border-bottom: 1px solid #cccccc; 
 				font-size: 14px; 
@@ -39,8 +42,8 @@
 				padding: 54px 0 15px 0;
 				line-height: 30px;
 			}	
-#footer a { font-weight: normal; color: #005580;}	
-.footer { width: 980px; height: auto; padding-bottom: 52px;}	 
+.footer a { font-weight: normal; color: #005580;}	
+.footer { width: 100%; height: auto; padding-bottom: 52px;}	 
 .footer ul li { width: 100%; margin-top: 20px;}
 .footer ul li a { margin-left: 18px;}
 .footer .font { color: #666666;}
