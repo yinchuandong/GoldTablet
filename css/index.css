@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+#main { width: 1024px; height: auto;}
+#halei { width: 1024px; height: 540px; background-color: #fff; margin: 30px 0 0 0;}
+.halei { width: 340px; height: 535px; background-color: #fff; float: left;}
+.haleiA	{ border-top: 4px solid #40b9a1;}
+.haleiB	{ border-top: 4px solid #ff5c46;}
+.haleiC	{ border-top: 4px solid #6b9bf2;}
+.halei .posi { height: 475px; width: 294px; margin: 0 auto; padding-top: 28px;}
+.gray_y { height: 500px; width: 1px; margin: 20px 0 0 0; background-color: #e9e9e9;}
+.title { height: 40px; width: 294px;}
+.title span{ font-size: 30px; margin-left: 8px; float: left;}
+.title img { padding: 7px 0 0 129px; float: left;}
+.risk { color: #6d6e71; height: 38px; width: 294px;}
+.benefit { padding-left: 8px; line-height: 37px; float: left;}
+.risklevel { padding-left: 40px; line-height: 37px; float: left;}
+.risk img { margin: 9px 0 0 1px;}
+.gray_x { height: 1px; width: 294px; background-color: #d4d4d4;}
+.income_nav { height: 32px; color: #8c8d90;}
+.income_nav span { line-height: 32px; float: left; text-align: center;}
+.income_nav .nav1 { width: 91px;}
+.income_nav .nav2 { width: 120px;}
+.income_nav .nav3 { width: 83px;}
+.income_num { height: 39px; color: #000000; }
+.income_num span { line-height:39px; float: left; text-align: center;}
+.income_num .num1 { width: 91px; font-size: 24px; color: #ffa200; }
+.income_num .num2 { width: 120px;}
+.income_num .num3 { width: 83px;}
+.graph { height: 176px;}
+.money { height: 39px; color: #000; width: 294px;}
+.money span {line-height:39px; float: left; text-align: center;}
+.money .num4 { margin: 0 12px 0 12px;}
+.money input { width: 66px; height: 30px; text-align: center; border: 1px solid #e2e2e2; line-height: 30px;}
+.money .sign1 { width: 19px;}
+.money .num5 { width: 80px;}
+.money .sign2 { width: 19px; margin-right: 2px;}
+.money .num6 { width: 82px;}
+.cathectic { width: 280px; height: 48px; background-color: #088ae0; margin-top: 20px; }
+.cathectic p { font-size: 18px; color: white; line-height: 48px;}
+#web_character { width: 1024px; height: 320px; margin-top: 30px; background-color: white;}
+#web_character div { float: left;}
+.cha_size { width: 340px; height: 320px;}
+.cha_size div { width: 340px; margin-top: 57px; margin-bottom: 30px; }
+.cha_size p { width: 270px; margin: 0 auto; text-align: center; color: #6d6e71;}
+.font24 { font-size:24px; padding-bottom: 25px;}
+.gray_y2 { height: 260px; width: 1px; margin: 20px 0 0 0; background-color: #e9e9e9;}
+#process { width: 1024px; height: 320px; background-color: white; margin-top: 30px;}
+#text { width: 960px; height: 256px; padding-top: 30px;} 
+#text .title { color: #6d6e71; width: 960px; font-size: 24px;}
+#footer { width: 1024px; height: 92px; margin-top: 30px; margin-bottom: 30px;}
+#footer img { float: left;}
+

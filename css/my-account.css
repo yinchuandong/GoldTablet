@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+#mainr { width: 783px; height: auto; background-color: white; }
+.mainr { width: 700px; height: 460px; margin: 30px 41px 33px 41px;}
+.mainr .title { width: 100%; height: 40px; font-size: 20px; color: #202020;}
+.mainr .title p { float: left;}
+.halei_manu { width: 100%; height: 40px; background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa;}
+.halei_manu .size { height: 20px; width: 100%; padding-top: 10px; font-size: 18px; color: #6d6e71;}
+.halei_manu .size div { width: 232px; height: 20px; line-height: 20px;}
+.halei_manu .size .border { border-right: 1px solid #b9e5fa;}
+.halei_num { width: 100%; height: 84px; border-bottom: 1px solid #d4d4d4;}
+.halei_num .size { height: 40px; width: 100%; padding-top: 22px; font-size: 26px; color: #ffa200;}
+.halei_num .size div { width: 232px; height: 40px; line-height: 40px;}
+.halei_num .size .border { border-right: 1px solid #d4d4d4;}
+.text { width: 100%; height: auto;}
+.text .size { width: 237px; height: auto; margin-top: 50px; margin-bottom: 144px;}
+.text ul li { height: 22px; margin-bottom: 24px; font-size: 20px; color: #6d6e71;}
+.text .font { margin-left: 20px;}
+.text .font span { color: #ffa200;}
