@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.main { width: 1024px; height: auto; margin-top: 21px;}
+.main { width: 1024px; height: auto; margin-top: 20px;}
 .mainl { width: 220px; height: 100%; margin-right: 21px;}
 .l_nav,.r_nav { width: 220px; height: auto; background-color: white; padding-bottom: 21px;}
 .l_nav li,.r_nav li { width: 220px; 
@@ -9,6 +9,7 @@
 		  text-align: left; 
 		  line-height: 40px;}
 .mainl .title { font-size: 18px; 
+
 				color: #fff; 
 				font-weight: bold ; 
 				margin-bottom: 10px; 

@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .mainr-big { width: 783px; height: auto; background-color: white; color: black;}
-.mainr { width: 700px; height: auto; margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
+.mainr { width: 700px; height: 900px; overflow: scroll; margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
 .mainr .frame { width: 700px; height: auto; border-bottom: 1px solid #d4d4d4; }
 .mainr .frame .title { width: 700px; height: 34px; background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa; line-height: 34px; font-size: 20px }
 .mainr .frame .brief { width: 700px; height: auto; padding-bottom: 10px; padding-top: 20px;}
@@ -38,6 +38,9 @@
 
 .manage .big-title{
     line-height: 24px;
-    font-size: 20px;
+    font-size: 24px;
+    padding: 5px;background-color: #ecf9ff;
+    margin-bottom: 10px;
+    margin-top: 30px;
     font-family: '微软雅黑';
 }
