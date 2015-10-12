@@ -35,3 +35,9 @@
 	width: 700px;
 	margin: 20px 0;
 }
+
+.manage .big-title{
+    line-height: 24px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+}
