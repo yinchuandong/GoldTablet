@@ -2,7 +2,8 @@
 /* CSS Document */
 .main { width: 1024px; height: auto;}
 .halei-div{
-	height: 570px;width: 100%;margin-bottom: 20px;
+	height: 570px;width: 100%;margin-bottom: 20px;padding-bottom: 20px;
+	background-color: #fff;
 }
 .halei { width: 1024px; height: 540px; background-color: #fff; margin: 30px 0 0 0;}
 .halei { width: 340px; height: 535px; background-color: #fff; float: left;}
