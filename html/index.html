@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="../css/reset.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<link href="../css/skitter.styles.min.css" type="text/css" media="all" rel="stylesheet" />
 </head>
 <body class="text_cen">
 	<div class="top">
@@ -29,8 +30,15 @@
 	</div>
 	<div class="banner">
 		<div class="ban_main cl mar_cen">
-			<img class="fl" src="../img/banner.png"/>
-			
+			<!-- <img class="fl" src="../img/banner.png"/> -->
+			<div class="box_skitter box_skitter_large" style="width: 1024px; height: 380px;">
+	          <ul>
+	            <li><a href="#cube"><img src="../img/banner0.png" class="circles" /></a><div class="label_text"><p>量子学习平板L-100</p></div></li>
+	            <li><a href="#cubeRandom"><img src="../img/banner1.png" class="circlesInside" /></a><div class="label_text"><p>量子学习平板L-100</p></div></li>
+	            <li><a href="#block"><img src="../img/banner2.png" class="circlesRotate" /></a><div class="label_text"><p>量子早教平板L-101</p></div></li>
+				<li><a href="#block"><img src="../img/banner3.png" class="circlesRotate" /></a><div class="label_text"><p>量子娱乐办公平板L-102</p></div></li>
+	          </ul>
+	        </div>
 		</div>	
 	</div>
 	<div class="main mar_cen">
@@ -38,8 +46,8 @@
 			<div class="halei haleiA j-haleiA">
 				<div class="posi text_l">
 					<div class="title cl">
-						<span>平板A</span>
-						<a href="#"><img src="../img/checkdetail.png"/></a>
+						<span>学习平板L-100</span><br/>
+						<a href="production-detail-a.html"><img src="../img/checkdetail.png"/></a>
 					</div>
 					<div style="height:356px;">
 						
@@ -57,12 +65,12 @@
 			<div class="halei haleiB  j-haleiB">
 				<div class="posi text_l">
 					<div class="title cl">
-						<span>平板A</span>
+						<span>早教平板L-101</span><br/>
 						<a href="#"><img src="../img/checkdetail.png"/></a>
 					</div>
 					<div style="height:356px;">
 						
-						<img src="../img/main1.png" alt="" style="width:294px;">
+						<img src="../img/main2.png" alt="" style="width:294px;">
 						<p>这个平板很好</p>
 						<p>这个平板很好</p>
 						<p>这个平板很好</p>
@@ -76,12 +84,12 @@
 			<div class="halei haleiC j-haleiC">
 				<div class="posi text_l">
 					<div class="title cl">
-						<span>平板A</span>
+						<span>娱乐办公平板L-102</span><br/>
 						<a href="#"><img src="../img/checkdetail.png"/></a>
 					</div>
 					<div style="height:356px;">
 						
-						<img src="../img/main1.png" alt="" style="width:294px;">
+						<img src="../img/main3.png" alt="" style="width:294px;">
 						<p>这个平板很好</p>
 						<p>这个平板很好</p>
 						<p>这个平板很好</p>
@@ -126,5 +134,18 @@
 	<script src="../js/jquery.js"></script>
 	<script src="../js/util.js"></script>
 	<script src="../js/index.js"></script>
+	<script type="text/javascript" language="javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" language="javascript" src="../js/jquery.skitter.min.js"></script>	<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+      $('.box_skitter_large').skitter({
+        theme: 'clean',
+        numbers_align: 'center',
+        progressbar: false, 
+        enable_navigation_keys: false,
+        dots: true, 
+        preview: true
+      });
+    });
+  </script>
 </body>
 </html>

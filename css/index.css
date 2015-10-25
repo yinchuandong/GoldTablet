@@ -9,11 +9,12 @@
 .haleiA	{ border-top: 4px solid #40b9a1;}
 .haleiB	{ border-top: 4px solid #ff5c46;}
 .haleiC	{ border-top: 4px solid #6b9bf2;}
-.halei .posi { height: 475px; width: 294px; margin: 0 auto; padding-top: 28px;}
+.halei .posi {line-height: 20px; height: 475px; width: 294px; margin: 0 auto; padding-top: 28px;}
+.halei .posi img{margin-bottom: 20px;}
 .gray_y { height: 500px; width: 1px; margin: 20px 0 0 0; background-color: #e9e9e9;}
-.title { height: 40px; width: 294px;}
-.title span{ font-size: 30px; margin-left: 8px; float: left;}
-.title img { padding: 7px 0 0 129px; float: left;}
+.title { width: 294px;text-align: center;}
+.title span{ font-size: 30px; }
+.title img { margin-top: 10px;}
 .risk { color: #6d6e71; height: 38px; width: 294px;}
 .benefit { padding-left: 8px; line-height: 37px; float: left;}
 .risklevel { padding-left: 40px; line-height: 37px; float: left;}

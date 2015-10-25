@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .mainr-big { width: 783px; height: auto; background-color: white; color: black;}
-.mainr { width: 700px; height: 900px; overflow: scroll; margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
+.mainr { width: 700px;  margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
 .mainr .frame { width: 700px; height: auto; border-bottom: 1px solid #d4d4d4; }
 .mainr .frame .title { width: 700px; height: 34px; background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa; line-height: 34px; font-size: 20px }
 .mainr .frame .brief { width: 700px; height: auto; padding-bottom: 10px; padding-top: 20px;}
@@ -16,27 +16,15 @@
 						 font-weight: bold; line-height: 30px; 
 						 background-color: #ecf9ff;}
 .mainr .cframe .ccontent { margin-top: 10px; padding-left: 13px; padding-right: 13px;}
-.mainr .manage { width: 700px; height: auto; margin-top: 30px; margin-bottom: 30px; padding-top: 10px;}
-.mainr .manage .title { padding-left: 10px; margin-bottom: 15px; font-weight: bold;}
-.mainr .manage .nav { width: 650px; height: 34px; padding: 0 25px 0 25px; 
-					  line-height: 34px; color: #6d6e71; 
-					  background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa;}
-.mainr .manage .nav .nav1 { width: 90px;}
-.mainr .manage .nav .nav2 { width: 180px;}
-.mainr .manage .nav .nav3 { width: 380px;}
-.mainr .manage ul { width: 650px; height: auto; padding: 0 25px 0 25px; color: #000;}
-.mainr .manage ul li { height: 40px; border-bottom: 1px solid #d4d4d4; line-height: 40px;}
-.mainr .manage ul li div { height: 40px; float: left;}
-.mainr .manage ul li div span { color: #088ae0;}
-.mainr .manage .content1 { width: 90px;}
-.mainr .manage .content2 { width: 180px;}
-.mainr .manage .content3 { width: 380px;}
+.mainr img{
+	margin:20px 0;
+}
 .box_skitter {
 	width: 700px;
 	margin: 20px 0;
 }
 
-.manage .big-title{
+.big-title{
     line-height: 24px;
     font-size: 24px;
     padding: 5px;background-color: #ecf9ff;
