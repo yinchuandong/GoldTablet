@@ -55,3 +55,19 @@
 .footer { width: 1024px; height: 92px; margin-top: 30px; margin-bottom: 30px;}
 .footer img { float: left;}
 
+/* ----------------- */
+.abstruct p{
+    font-size: 16px;
+    line-height: 25px;
+    /*text-align: center;*/
+}
+.abstruct .price{
+    display: inline-block;
+    margin: 40px 0px 0px 5px;
+    color: #F40;
+    font-size: 25px;
+}
+
+
+
+

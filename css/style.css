@@ -1,128 +1,178 @@
-body, div, ul, li {
-  margin: 0;
-  padding: 0;
-  font-style: normal; }
+body,
+div,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
 
-ol, ul, li {
-  list-style: none; }
+ol,
+ul,
+li {
+    list-style: none;
+}
 
 img {
-  border: 0;
-  vertical-align: middle; }
+    border: 0;
+    vertical-align: middle;
+}
 
 .clear {
-  clear: both;
-  height: 1px;
-  width: 100%;
-  overflow: hidden;
-  margin-top: -1px; }
+    clear: both;
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1px;
+}
 
 a {
-  color: #000000;
-  text-decoration: none; }
-  a:hover {
-    color: #BA2636; }
+    color: #000000;
+    text-decoration: none;
+}
 
-.red, .red a {
-  color: #F00; }
+a:hover {
+    color: #BA2636;
+}
 
-.lan, .lan a {
-  color: #1E51A2; }
+.red,
+.red a {
+    color: #F00;
+}
+
+.lan,
+.lan a {
+    color: #1E51A2;
+}
 
 .pd5 {
-  padding-top: 5px; }
+    padding-top: 5px;
+}
 
 .dis {
-  display: block; }
+    display: block;
+}
 
 .undis {
-  display: none; }
+    display: none;
+}
 
-#nav {
-  width: 100%;
-  height: 60px;
-  background: #088AE0;
-  margin: 0 auto; }
-  #nav li {
+.nav {
+    width: 1024px;
+    height: 60px;
+    background: #088AE0;
+    margin: 0 auto;
+}
+
+.nav li {
     display: inline;
-    height: 60px; }
-    #nav li a {
-      display: inline-block;
-      padding: 0 20px;
-      height: 60px;
-      line-height: 60px;
-      color: #FFF;
-      font-size: 16px;
-      text-decoration: none; }
-      #nav li a:hover {
-        background-color: #0B5AA9; }
-  #nav .active a {
-    background-color: #0B5AA9; }
+    height: 60px;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #0B5AA9;
+}
+
+.nav .active a {
+    background-color: #0B5AA9;
+}
 
 .main-container {
-  width: 100%; }
+    width: 100%;
+}
 
 .product-info {
-  position: relative; }
-  .product-info li {
+    position: relative;
+}
+
+.product-info li {
     float: left;
     height: 33.333%;
     padding: 0;
-    overflow: hidden; }
-    .product-info li img {
-      width: 100%;
-      overflow: hidden;
-      transition: ALL 0.4s ease-in-out;
-      -webkit-transition: ALL 0.4s ease-in-out;
-      -moz-transition: ALL 0.4s ease-in-out;
-      -o-transition: ALL 0.4s ease-in-out;
-      -ms-transition: ALL 0.4s ease-in-out; }
-    .product-info li .shadow {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      border-radius: 100%; }
-      .product-info li .shadow .nav {
-        display: none;
-        position: absolute;
-        z-index: 3;
-        width: 100%;
-        height: 100%;
-        background-color: #000000;
-        opacity: 0.8;
-        -moz-opcity: 0.8;
-        filter: alpha(opacity=80);
-        transition: ALL 0.4s ease-in-out;
-        -webkit-transition: ALL 0.4s ease-in-out;
-        -moz-transition: ALL 0.4s ease-in-out;
-        -o-transition: ALL 0.4s ease-in-out;
-        -ms-transition: ALL 0.4s ease-in-out; }
-    .product-info li:hover .nav, .product-info li:hover .content {
-      display: block;
-      transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -ms-transform: scale(1.05); }
-    .product-info li:hover img {
-      transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      -ms-transform: scale(1.05); }
+    overflow: hidden;
+}
+
+.product-info li img {
+    width: 100%;
+    overflow: hidden;
+    transition: ALL 0.4s ease-in-out;
+    -webkit-transition: ALL 0.4s ease-in-out;
+    -moz-transition: ALL 0.4s ease-in-out;
+    -o-transition: ALL 0.4s ease-in-out;
+    -ms-transition: ALL 0.4s ease-in-out;
+}
+
+.product-info li .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 100%;
+}
+
+.product-info li .shadow .nav {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    -moz-opcity: 0.8;
+    filter: alpha(opacity=80);
+    transition: ALL 0.4s ease-in-out;
+    -webkit-transition: ALL 0.4s ease-in-out;
+    -moz-transition: ALL 0.4s ease-in-out;
+    -o-transition: ALL 0.4s ease-in-out;
+    -ms-transition: ALL 0.4s ease-in-out;
+}
+
+.product-info li:hover .nav,
+.product-info li:hover .content {
+    display: block;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+}
+
+.product-info li:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+}
 
 .content {
-  position: absolute;
-  display: none;
-  z-index: 9;
-  top: 45%;
-  left: 30%; }
-  .content .glyphicon, .content a {
+    position: absolute;
+    display: none;
+    z-index: 9;
+    top: 45%;
+    left: 30%;
+}
+
+.content .glyphicon,
+.content a {
     color: #B93030;
-    font-size: 24px; }
+    font-size: 24px;
+}
 
 .footer {
-  padding: 20px 0 0 0; }
-  .footer .ft_wrap {
-    padding: 0; }
+    padding: 20px 0 0 0;
+}
+
+.footer .ft_wrap {
+    padding: 0;
+}
