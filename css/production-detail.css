@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.mainr-big { width: 783px; height: auto; background-color: white; color: black;}
+.mainr-big { width: 783px; height: auto; background-color: white; color: black; margin-top: 20px;}
 .mainr { width: 700px;  margin-top: 20px; margin-bottom: 20px;font-size: 14px;}
 .mainr .frame { width: 700px; height: auto; border-bottom: 1px solid #d4d4d4; }
 .mainr .frame .title { width: 700px; height: 34px; background-color: #ecf9ff; border-bottom: 1px solid #b9e5fa; line-height: 34px; font-size: 20px }
@@ -16,6 +16,7 @@
 						 font-weight: bold; line-height: 30px; 
 						 background-color: #ecf9ff;}
 .mainr .cframe .ccontent { margin-top: 10px; padding-left: 13px; padding-right: 13px;}
+.mainr .cframe .ccontent img { width: 700px;}
 .mainr img{
 	margin:20px 0;
 }
